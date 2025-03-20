@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(Windows) Launch",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "console": "externalTerminal"
+        },
+        {
+            "name": "C#: ProgC# Practice Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "C:/Users/Ravi.Kancharla/source/Work/C# Practice/C# Practice.csproj"
+        }
+    ]
+}

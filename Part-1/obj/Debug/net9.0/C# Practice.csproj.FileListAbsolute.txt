@@ -1,0 +1,14 @@
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\bin\Debug\net9.0\C# Practice.exe
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\bin\Debug\net9.0\C# Practice.deps.json
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\bin\Debug\net9.0\C# Practice.runtimeconfig.json
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\bin\Debug\net9.0\C# Practice.dll
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\bin\Debug\net9.0\C# Practice.pdb
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.AssemblyInfoInputs.cache
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.AssemblyInfo.cs
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.csproj.CoreCompileInputs.cache
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.dll
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\refint\C# Practice.dll
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.pdb
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\C# Practice.genruntimeconfig.cache
+C:\Users\Ravi.Kancharla\source\Work\C# Practice\obj\Debug\net9.0\ref\C# Practice.dll
