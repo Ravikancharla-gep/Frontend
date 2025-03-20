@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ravi.Kancharla\\source\\Work\\C# Practice\\C# Practice.csproj": {}
+    "C:\\Users\\Ravi.Kancharla\\source\\Work\\Frontend\\Part-1\\C# Practice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ravi.Kancharla\\source\\Work\\C# Practice\\C# Practice.csproj": {
+    "C:\\Users\\Ravi.Kancharla\\source\\Work\\Frontend\\Part-1\\C# Practice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ravi.Kancharla\\source\\Work\\C# Practice\\C# Practice.csproj",
+        "projectUniqueName": "C:\\Users\\Ravi.Kancharla\\source\\Work\\Frontend\\Part-1\\C# Practice.csproj",
         "projectName": "C# Practice",
-        "projectPath": "C:\\Users\\Ravi.Kancharla\\source\\Work\\C# Practice\\C# Practice.csproj",
+        "projectPath": "C:\\Users\\Ravi.Kancharla\\source\\Work\\Frontend\\Part-1\\C# Practice.csproj",
         "packagesPath": "C:\\Users\\Ravi.Kancharla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ravi.Kancharla\\source\\Work\\C# Practice\\obj\\",
+        "outputPath": "C:\\Users\\Ravi.Kancharla\\source\\Work\\Frontend\\Part-1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ravi.Kancharla\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
