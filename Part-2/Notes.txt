@@ -1,0 +1,50 @@
+------------------------------------------------
+
+To create a new ConsoleApp
+Open your desired location & 
+
+>> dotnet new console -n ProjectName
+
+    (or)
+
+Open Ctrl+Shift+P
+-> .Net New project 
+    -> Console App
+        -> Enter Project Name: ConsoleApp1
+
+Now hit "dotnet run" to get the output
+
+------------------------------------------------
+
+To add Color for output text
+
+Open Ctrl+Shift+P
+-> Add Nuget Packages
+    -> Pastel
+        -> Latest version
+
+Now you can see it will be added in csproj file & you can use like this:
+Console.WriteLine("Hello, World!".Pastel(Color.Yellow));
+
+-------------------------------------------------
+
+Commands in our folder directory: (cd ProjectName)
+>> dotnet run (adds bin files & executes it)
+>> dotnet build (adds bin files)
+>> dotnet clean (clears bin files)
+
+-------------------------------------------------
+
+Debugger Tools 
+- Move to next break point
+- Move to next line (Even if there is any function call)
+- Move into that function
+- Step out of that function
+- Restart
+- Stop
+
+-------------------------------------------------
+
+Static - It allows the method to be called without creating an instance of the class
+
+-------------------------------------------------
