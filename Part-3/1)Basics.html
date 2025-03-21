@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Basics of HTML</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Next line -->
+  <br />
+
+  <!-- horizontal line -->
+  <hr />
+
+  <!-- Header -->
+  <header>
+    <h1>Summary</h1>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#route">Route</a></li>
+        <li><a href="#table">Table</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#media">Media</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <hr />
+  <section id="lists">
+    <!-- Paragraph -->
+    <p>This is how we write Lists</p>
+
+    <!-- Ordered Lists -->
+    <ol>
+      <li>Ordered List 1</li>
+      <li>Ordered List 2</li>
+    </ol>
+
+    <!-- Unordered Lists -->
+    <ul>
+      <li>Unordered List 1</li>
+      <li>Unordered List 2</li>
+    </ul>
+  </section>
+
+  <hr />
+  <!-- table -->
+  <section id="table">
+    <h3>Fruits Table</h3>
+    <table border="1" width="25%" cellpadding="5" cellspacing="0">
+      <thead style="background-color: lightblue;">
+        <tr>
+          <th>Fruit</th>
+          <th>Count</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody style="background-color: lightgreen;">
+        <tr>
+          <td>Apples</td>
+          <td>10</td>
+          <td>$2.00</td>
+        </tr>
+        <tr>
+          <td>Bananas</td>
+          <td>5</td>
+          <td>$1.00</td>
+        </tr>
+      </tbody>
+      <tfoot style="background-color: lightblue;">
+        <tr>
+          <td>Total</td>
+          <td>15</td>
+          <td>$3.00</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <br>
+  <hr />
+  <!-- Redirection Links -->
+  <section id="route">
+    <h2>Route</h2>
+    <p>Click on the links below to redirect to the respective sections</p>
+    <ul>
+      <li>Click <a href="https://www.google.com">Google</a> to browse</li>
+      <li><a href="https://www.microsoft.com/en-in">Microsoft</a></li>
+    </ul>
+  </section>
+
+  <hr>
+  <!-- Form -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+
+    <form action="/submit" method="POST">
+
+      <label for="name">Name:</label>
+      <input type="text" name="username" placeholder="Enter your name" required/><br> <br>
+
+      <label for="email">Email:</label>
+      <input type="email" name="email" placeholder="Enter your email" required/><br> <br>
+      <label>Rate this site:</label><br>
+
+      <input type="radio" id="excellent" name="rating" value="excellent">
+      <label for="excellent">Excellent</label><br>
+
+      <input type="radio" id="good" name="rating" value="good">
+      <label for="good">Good</label><br>
+
+      <input type="radio" id="average" name="rating" value="average">
+      <label for="average">Average</label><br>
+
+      <br> 
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+
+    </form>
+  </section>
+
+  <hr />
+  <!-- Media -->
+  <section id="media">
+    <h2>Media</h2>
+
+    <p>Checkout this Image, Video & Audio</p>
+
+    <!-- Image  -->
+    <img src="Assets\Blueberries.jpg" alt="Blue Berries" width="320" height="240" />
+
+    <!-- Video -->
+    <video controls width="320" height="240">
+      <source src="Assets\Waterfall.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <p>Checkout this Audio</p>
+    <!-- Audio -->
+    <audio controls>
+      <source src="Assets\Audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio tag.
+    </audio>
+
+  </section>
+
+  <br>
+  <hr>
+
+</body>
+
+</html>
