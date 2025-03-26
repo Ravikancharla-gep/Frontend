@@ -1,0 +1,97 @@
+/* To apply style for whole body */
+* {
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+/* To apply style for all h1 elements */
+h1 {
+    font-size: 2vw;
+    color: rgb(255, 38, 0);
+}
+
+/* To apply style for table */
+table {
+    width:50%;
+}
+
+/* Define a class to add properties for whole class  */
+.contact-class {
+    font-size: 1.5vw;
+    color: rgb(107, 21, 169);
+}
+
+/* CSS On hovering */
+button[type="reset"]:hover {
+    background-color: rgb(203, 7, 247);
+    color: rgb(0, 0, 0);
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+/* CSS On clicking */
+button[type="submit"]:focus {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 68, 255);
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+
+/* By combining the power of Flexbox, CSS Grid, and CSS Animations/Transitions,
+ you can create functional and visually appealing layouts. */
+
+ 
+/* Set Up Your Layout Using Flexbox */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Define Complex Grid Layouts with CSS Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*(2 equal width columns)*/
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+/* Combine Flexbox and CSS Grid for Flexible Layouts */
+.grid-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Add Interactivity with CSS Animations and Transitions */
+.button {
+    transition: background-color 0.5s ease;
+}
+
+/* Add Hover Effects */
+.button:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+/* Create Animations with Keyframes */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100px);
+    }
+}
+
+.animated-element {
+    animation: slide 2s ease-in-out;
+}
+
+/* Ensure Full Responsiveness */
+@media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+    }
+}

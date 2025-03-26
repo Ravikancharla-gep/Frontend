@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Basics of HTML</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="1)Basics.css" />
 </head>
 
 <body>
@@ -19,6 +19,7 @@
   <!-- Header -->
   <header>
     <h1>Summary</h1>
+    <p>Click on below links to navigate to that section</p>
     <!-- Navigation -->
     <nav>
       <ul>
@@ -97,7 +98,7 @@
 
   <hr>
   <!-- Form -->
-  <section id="contact">
+  <section id="contact" class="contact-class">
     <h2>Contact Us</h2>
 
     <form action="/submit" method="POST">
@@ -117,7 +118,7 @@
 
       <input type="radio" id="average" name="rating" value="average">
       <label for="average">Average</label><br>
-
+      
       <br> 
       <button type="reset">Reset</button>
       <button type="submit">Submit</button>
@@ -130,10 +131,12 @@
   <section id="media">
     <h2>Media</h2>
 
-    <p>Checkout this Image, Video & Audio</p>
+    <p>Checkout this Image:</p>
 
     <!-- Image  -->
     <img src="Assets\Blueberries.jpg" alt="Blue Berries" width="320" height="240" />
+
+    <p>Checkout this Video:</p>
 
     <!-- Video -->
     <video controls width="320" height="240">
@@ -141,7 +144,7 @@
       Your browser does not support the video tag.
     </video>
 
-    <p>Checkout this Audio</p>
+    <p>Checkout this Audio:</p>
     <!-- Audio -->
     <audio controls>
       <source src="Assets\Audio.mp3" type="audio/mpeg" />
