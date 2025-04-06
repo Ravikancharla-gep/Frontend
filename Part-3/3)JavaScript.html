@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab</title>
+</head>
+
+<body>
+    <h1 id = "heading1">Hello, JavaScript!</h1>
+    <h2 id = "heading2">Good Afternoon! </h2>
+    <button id = "button1"> Hover here </button>
+    <input type="text" id="inputBox" placeholder="Enter text here">
+    <script>
+        // Print "Hello, World!" to the console
+        console.log("Hello, World!");
+
+        // Declare variables
+        let name = "Alice";
+        const age = 30;
+        var city = "New York";
+
+        // Print variables to the console
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("City:", city);
+
+        // Control structure: Check if age is greater than 18
+        if (age > 18) {
+            console.log("You are an adult.");
+        } else {
+            console.log(name + " is a minor.");
+        }
+
+        // Function to calculate the square of a number
+        function squareNumber(number) {
+            return number * number;
+        }
+
+        // Call the function and print the result
+        const result = squareNumber(4);
+        console.log("The square of 4 is:", result);
+        console.log("---------------------");
+
+        // Access the heading element and change its text
+        const heading1 = document.getElementById("heading1");
+        heading1.textContent = "This text is automatically changed on reload";
+        heading1.style.color = "green";
+
+        // Adding event listener to the heading 
+        const button1 = document.getElementById("button1");
+        button1.addEventListener("mouseover", function() {
+            heading1.style.color = "blue";
+            heading1.textContent = "You hovered over the button!";
+        });
+        button1.addEventListener("click", function() {
+            alert("You clicked the heading!");
+        });
+
+        // Adding event listener to the input box
+        const inputBox = document.getElementById("inputBox");
+        inputBox.addEventListener("input", function() {
+            heading2.textContent = "Good Afternoon! " + inputBox.value;
+            heading2.style.color = "red";
+        });
+
+    </script>
+
+    <h2>This is the way to pass whole code via different js file</h2>
+    <script src="3)Basics.js"></script>
+    <p>Check the console for messages.</p>
+</body>
+
+</html>
