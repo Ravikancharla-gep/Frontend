@@ -1,1 +1,1 @@
-Install GoLive extension - to directly see real time updates
+![image](https://github.com/user-attachments/assets/ad3d651c-1750-4f5c-bd61-b22ee63c41bd)
